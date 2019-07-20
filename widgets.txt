@@ -1,0 +1,10 @@
+root=Tk()
+
+root.geometry("500x500")
+Label(frame/root/none,text,fg,bg)
+Button
+Frame()
+Entry(root)
+Checkbutton(root/frame,text)
+pack(side,fill)
+grid(row,column/columnspan,sticky=" ")

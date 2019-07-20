@@ -1,0 +1,12 @@
+from tkinter import
+game_screen=Tk()
+game_screen.geometry('500x600')
+game_screen.title("BetaHub: Rock Paper Scissor")
+top=Frame(game_screen,width=500,height=184)
+top.pack()
+bot=Frame(game_screen)
+bot.pack(side='bottom')
+p=PhotoImage(file='top.png')
+Label(top,image=p).pack(fill=X)
+Button(bot,text='ROCK').pack()
+game_screen.mainloop()
